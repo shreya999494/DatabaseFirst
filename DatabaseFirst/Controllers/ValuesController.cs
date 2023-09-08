@@ -44,6 +44,7 @@ namespace DatabaseFirst.Controllers
             return emp.Emp_id;
         }
 
+        //[Authorize]
         [ActionName("GetEmployees")]
         public IEnumerable<Employee> GetEmployees()
         {
